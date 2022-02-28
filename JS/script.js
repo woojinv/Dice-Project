@@ -7,16 +7,25 @@ const pictures = {
   6:'https://i.imgur.com/mPaO13v.png'
 }
 
+const uniqueMessages = {
+  1: "You got a one, that's so fun",
+  2: "You got MewTwo!",
+  3: "Three thrice mice rice.",
+  4: "Four!!",
+  5: "Hive mind rhymes with mind five",
+  6: "Sexy sixes"
+}
+
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const rollDice = () => {
   let randomlyGeneratedNum = generateRandomNum(1, 6);
   const image = document.getElementById("myImg");
   const message = document.getElementById("result");
-  const exclamation = document.getElementById("exclamation");
   
   let urlOfImg = pictures[randomlyGeneratedNum];
   image.setAttribute('src', urlOfImg);
-  message.innerHTML = randomlyGeneratedNum;
-  exclamation.setAttribute('style', 'visibility', 'visible')
+
+  let uniqueMessage = uniqueMessages[randomlyGeneratedNum];
+  message.innerHTML = uniqueMessage;
 };
