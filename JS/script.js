@@ -6,7 +6,7 @@ const oPICS = {
   5:'https://i.imgur.com/3J8kVFI.png',
   6:'https://i.imgur.com/2lnuf9A.png'
 }
-
+/*
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const updateImg = () => {
@@ -18,4 +18,19 @@ const updateImg = () => {
     image.setAttribute('src', urlOfImg);
     message.innerHTML = randomlyGeneratedNum + "!";
   }
+};
+*/
+
+const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+const rollDice = () => {
+  let randomlyGeneratedNum = generateRandomNum(1, 6);
+  const image = document.getElementById("myImg");
+  const message = document.getElementById("message");
+  const exclamation = document.getElementById("exclamation");
+  
+  let urlOfImg = oPICS[randomlyGeneratedNum];
+  image.setAttribute('src', urlOfImg);
+  message.innerHTML = randomlyGeneratedNum;
+  exclamation.setAttribute('style', 'visibility', 'visible')
 };
