@@ -1,4 +1,5 @@
 
+/*
 div {
     display: flex;
     justify-content: center;
@@ -27,6 +28,32 @@ p {
     text-align: center;
 }
 #myImg {
+margin-top: 50px;
+}
+#message {
+    font-size: 58px;
+}
+*/
+
+
+body {
+    font-family: 'Hubballi', cursive, arial;
+    text-align: center;
+}
+
+#title {
+    font-size: 72px;
+    margin-top: 125px;
+}
+#instructions {
+    font-size: 48px;
+}
+#roll_button {
+    font-size: 36px;
+    font-family: 'Hubballi', cursive, arial;
+}
+
+#imageContainer {
 margin-top: 50px;
 }
 #message {

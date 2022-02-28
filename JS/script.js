@@ -1,4 +1,4 @@
-const oPICS = {
+const pictures = {
   1:'https://i.imgur.com/VjeQG20.png',
   2:'https://i.imgur.com/5Yjwn6e.png',
   3:'https://i.imgur.com/FOqNrQT.png',
@@ -15,7 +15,7 @@ const rollDice = () => {
   const message = document.getElementById("result");
   const exclamation = document.getElementById("exclamation");
   
-  let urlOfImg = oPICS[randomlyGeneratedNum];
+  let urlOfImg = pictures[randomlyGeneratedNum];
   image.setAttribute('src', urlOfImg);
   message.innerHTML = randomlyGeneratedNum;
   exclamation.setAttribute('style', 'visibility', 'visible')
