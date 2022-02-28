@@ -2,13 +2,30 @@
 <html>
   <head>
     <title>Random Die Generator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css"/>
+    
     <script src="js/script.js"></script>
   </head>
 
 <body>
-  <button onclick="rollDice()">Roll!</button>
-  <img src="https://i.imgur.com/aMJe8hm.png" id="myImg" alt="question mark" height="225px">
-  <p id>You rolled a <span id="message">...</span><span id="exclamation" style="visibility:hidden">!</span></p>
+  <h1>RANDOM DICE GENERATOR</h1>
+  <h3>Click to roll!</h3>
+  
+  <div>
+    <button class="button" onclick="rollDice()">Roll!</button>
+  </div>
+  
+  <p><img src="https://i.imgur.com/aMJe8hm.png" id="myImg" alt="question mark" height="225px"></p>
+  
+  <div id="message">
+    <p>You rolled a <span id="result">...</span><span id="exclamation" style="visibility:hidden">!</span></p>
+  </div>
+
 </body>
 
 </html>
