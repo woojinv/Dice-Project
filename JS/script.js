@@ -1,10 +1,10 @@
 const oPICS = {
-  1:'https://i.imgur.com/IaBx0k2.jpeg',
-  2:'https://i.imgur.com/aez62JY.png',
-  3:'https://i.imgur.com/NlyPUv0.png',
-  4:'https://i.imgur.com/aPBcTgK.png',
-  5:'https://i.imgur.com/3J8kVFI.png',
-  6:'https://i.imgur.com/2lnuf9A.png'
+  1:'https://i.imgur.com/VjeQG20.png',
+  2:'https://i.imgur.com/5Yjwn6e.png',
+  3:'https://i.imgur.com/FOqNrQT.png',
+  4:'https://i.imgur.com/5xr2QJF.png',
+  5:'https://i.imgur.com/uaESiMS.png',
+  6:'https://i.imgur.com/mPaO13v.png'
 }
 /*
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
