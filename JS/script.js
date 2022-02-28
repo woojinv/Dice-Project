@@ -12,8 +12,10 @@ const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 
 const updateImg = () => {
   let randomlyGeneratedNum = generateRandomNum(1, 6);
   const image = document.getElementById("myImg");
+  const message = document.getElementById("message");
   if (randomlyGeneratedNum === 1 || randomlyGeneratedNum === 2 || randomlyGeneratedNum === 3 || randomlyGeneratedNum === 4 || randomlyGeneratedNum === 5 || randomlyGeneratedNum === 6) {
     let urlOfImg = oPICS[randomlyGeneratedNum];
     image.setAttribute('src', urlOfImg);
+    message.innerHTML = randomlyGeneratedNum + "!";
   }
 };
