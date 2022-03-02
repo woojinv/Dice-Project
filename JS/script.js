@@ -1,5 +1,5 @@
 const imgMsgColor = {
-  1: {
+  1: { 
     url: 'https://i.imgur.com/VjeQG20.png',
     message: "You got a one, that's so fun",
     color: "red"
