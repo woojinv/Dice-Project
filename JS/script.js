@@ -33,7 +33,6 @@ const rollDice = () => {
   const image = document.getElementById("myImg");
   const message = document.getElementById("result");
 
-  
   //Generate image:
   let urlOfImg = imagesOfDie[randomlyGeneratedNum];
   image.setAttribute('src', urlOfImg);
