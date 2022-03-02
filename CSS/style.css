@@ -13,16 +13,25 @@ body {
 }
 #roll_button {
     font-size: 36px;
-    font-family: 'Hubballi', cursive, arial;
-    background-color:aliceblue;
     margin-top: 25px;
 }
 
 #imageContainer {
 margin-top: 50px;
 }
+
+#myImg {
+    transition: transform 1000ms;
+}
+
+#myImg.rotate {
+    transform: rotate(360deg);
+}
+
+
 #message {
     font-size: 58px;
     margin-top: 25px;
 }
+
 
