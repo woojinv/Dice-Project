@@ -27,9 +27,6 @@ const messageColors = {
 
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const delayDiceRoll = () => {
-  setTimeout(rollDice, 1000);
-};
 
 const rollDice = () => {
   let randomlyGeneratedNum = generateRandomNum(1, 6);
