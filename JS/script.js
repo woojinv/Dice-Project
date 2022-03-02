@@ -2,7 +2,7 @@ const imgMsgColor = {
   1: { 
     url: 'https://i.imgur.com/VjeQG20.png',
     message: "You got a one, that's so fun",
-    color: "red"
+    color: "red" 
     },
   2: {
     url: 'https://i.imgur.com/5Yjwn6e.png',
